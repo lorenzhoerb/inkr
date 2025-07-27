@@ -12,8 +12,6 @@
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/yourusername/inkr.git
-cd inkr
 pip install -r requirements.txt  # Only if you add any requirements
 ```
 
@@ -68,6 +66,8 @@ python inkr.py embed --user alice -i original.txt -o watermarked.txt
 # Detect the embedded watermark
 python inkr.py detect --user alice -i watermarked.txt
 ```
+
+You can find more examples and an evaluation in the [examples folder](./examples) ([Examples Readme](./examples/README.md))
 
 ## 🔍 Help Commands
 
